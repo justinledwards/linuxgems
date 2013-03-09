@@ -277,8 +277,8 @@ nmap 127.0.0.1
 
 ***** netcat:
 
-# Listen for input from network on recieving_port, dump it to a file (insecure, but handy):
-netcat -l recieving_port > file_copied
+# Listen for input from network on receiving_port, dump it to a file (insecure, but handy):
+netcat -l receiving_port > file_copied
 
 # Pipe the output of a command to a target ip and port over the network:
 command | netcat -w number_of_seconds_before_timeout target_ip target_port
